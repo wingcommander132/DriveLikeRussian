@@ -6,7 +6,7 @@ NavMeshProjectSettings:
   serializedVersion: 2
   areas:
   - name: Walkable
-    cost: 1
+    cost: 3
   - name: Not Walkable
     cost: 1
   - name: Jump
@@ -14,13 +14,13 @@ NavMeshProjectSettings:
   - name: LeftSide
     cost: 1
   - name: RightSide
-    cost: 2
+    cost: 1
   - name: Intersection
     cost: 1
-  - name: 
-    cost: 1
-  - name: 
-    cost: 1
+  - name: SideWalk
+    cost: 2
+  - name: Road
+    cost: 2
   - name: 
     cost: 1
   - name: 
@@ -73,7 +73,7 @@ NavMeshProjectSettings:
   m_Settings:
   - serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 1.4
     agentHeight: 1.5
     agentSlope: 45
     agentClimb: 0.75

@@ -6,6 +6,22 @@ TagManager:
   tags:
   - EnemyDestination
   - NavPathTurn
+  - Enemy
+  - NPC_Car
+  - Intersection
+  - StoppedNPC
+  - InteractionInteractor
+  - PlayerObjective
+  - PlayerObjectiveGuide
+  - IntersectionE
+  - IntersectionN
+  - IntersectionS
+  - IntersectionW
+  - Road
+  - Sidewalk
+  - Dirt
+  - Water
+  - Street
   layers:
   - Default
   - TransparentFX
@@ -15,12 +31,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - NPC_Car
+  - Intersections
+  - Player
+  - Road
+  - Sidewalk
+  - Dirt
   - 
   - 
   - 

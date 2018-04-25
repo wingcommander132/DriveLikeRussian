@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveLikeRussian", "Assembly-CSharp.csproj", "{6A055820-1A40-ABB6-A4C0-67B38327B07B}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveLikeRussian", "DriveLikeRussian.csproj", "{64AA5FE4-ED76-2F7E-F9DB-809B70CA0533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveLikeRussian.Plugins", "DriveLikeRussian.Plugins.csproj", "{9D4A8B69-DA03-2927-916D-1DAA1945A803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveLikeRussian.Editor", "DriveLikeRussian.Editor.csproj", "{643723E7-35CD-CA20-9588-0994B211F8C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6A055820-1A40-ABB6-A4C0-67B38327B07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A055820-1A40-ABB6-A4C0-67B38327B07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A055820-1A40-ABB6-A4C0-67B38327B07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A055820-1A40-ABB6-A4C0-67B38327B07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64AA5FE4-ED76-2F7E-F9DB-809B70CA0533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64AA5FE4-ED76-2F7E-F9DB-809B70CA0533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64AA5FE4-ED76-2F7E-F9DB-809B70CA0533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64AA5FE4-ED76-2F7E-F9DB-809B70CA0533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4A8B69-DA03-2927-916D-1DAA1945A803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4A8B69-DA03-2927-916D-1DAA1945A803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4A8B69-DA03-2927-916D-1DAA1945A803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4A8B69-DA03-2927-916D-1DAA1945A803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643723E7-35CD-CA20-9588-0994B211F8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643723E7-35CD-CA20-9588-0994B211F8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643723E7-35CD-CA20-9588-0994B211F8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643723E7-35CD-CA20-9588-0994B211F8C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
